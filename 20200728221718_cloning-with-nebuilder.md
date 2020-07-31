@@ -85,6 +85,7 @@ This protocol describes how to use NEBuilder for cloning where the backbone is p
 ### Day 2
 
 #### Colony PCR
+See [Colony PCR](20200730002314_colony-pcr.md) for detail.
 
 #### 
 

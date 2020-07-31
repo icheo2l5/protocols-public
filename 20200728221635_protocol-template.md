@@ -9,18 +9,16 @@ abstract: |
 
 ## Summary
 
----
 
 ## Materials
 ### Reagents
-
----
 
 
 ## Procedures
 ### Day 1
 
----
 
 ## Reference and related files
 
+
+## Changelog

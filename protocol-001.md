@@ -52,7 +52,7 @@ This protocol describes how to use NEBuilder for cloning where the backbone is p
 
 - Use [PCR table](https://docs.google.com/spreadsheets/d/1Z0tTnK_r0xnXMjnLNWMSjo8pxUXNh8B8lLa8x3JgxPM/edit?usp=sharing) to determine and log PCR conditions.
 
-2. Run on 1% agarose gel (See [[20200728221725]] for detail) to verify the product size
+2. Run on 1% agarose gel (See [Run DNA gel](protocol-003.md) for detail) to verify the product size
   
     - Can also just run a small fraction (instead of all) of the product to check the size, and then PCR-purify the remaining (step **4**), and hence bypass gel-extraction to minimize loss of recovery. But a successful PCR should give more than enough product anyway.
 3. Cut the band of correct apparent M.W.
@@ -85,7 +85,7 @@ This protocol describes how to use NEBuilder for cloning where the backbone is p
 ### Day 2
 
 #### Colony PCR
-See [Colony PCR](20200730002314_colony-pcr.md) for detail.
+See [Colony PCR](protocol-002.md) for detail.
 
 #### 
 

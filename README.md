@@ -1,0 +1,1 @@
+Please open `protocol-000.md` as the entry point.

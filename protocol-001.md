@@ -27,7 +27,7 @@ This protocol describes how to use NEBuilder for cloning where the backbone is p
     - Do 50 μL or 100 μL reaction in a PCR tube.
     - Incubate at 37 degC (or temperature suggested by the manufacturer) for at least one and up to four hours.
     - Can freeze the product and pause here.
-2. Run on 1% agarose gel (see [[20200728221725]] for detail) to isolate the fragment of desired size if possible.
+2. Run on 1% agarose gel (see [Run DNA gel](protocol-003.md) for detail) to isolate the fragment of desired size if possible.
   
     - Otherwise, if the fragment to be cut out is fairly short (<50 bp?) or if there's only a single cutting site, can just perform a PCR cleanup to purify the products. Proceed to step **4**.
 3. Purify DNA using Qiagen MinElute Gel Extraction Kit or MN NucleoSpin Gel and PCR Clean-up Kit.

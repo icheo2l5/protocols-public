@@ -15,7 +15,8 @@ This protocol shows how to generate and harvest lentivirus using the second-gene
 ## Materials
 ### Reagents
 - HEK293T cells (or Lenti-X 293 from Takara)
-- OptiMEMDNA plasmids, including
+- OptiMEM
+- DNA plasmids, including
   - pCMV-dR8.91 (encoding for GAG, POL, TAT, REV)
   - pMD2.G (encoding for the envelope protein VSV-G)
   - transfer plasmid (e.g., pHR vector-based plasmid)
@@ -23,7 +24,7 @@ This protocol shows how to generate and harvest lentivirus using the second-gene
 - 3-/5-/10-mL syringe *(5-mL suggested)*
 - 0.45 μm filter (25 mm diameter, polyethersulfone membrane) or other low-protein binding membrane
 - 5-mL eppendorf *(suggested)*
-- 2% Vesphene
+- 2% Vesphene (See step. **6**)
 
 
 
@@ -42,7 +43,9 @@ This protocol shows how to generate and harvest lentivirus using the second-gene
 	- Alternatively, as I normally do now, perform *reverse transduction*. Briefly, split and plate cells to infect, then add virus solution (step. **8**) into the cells directly.
 
 ### Day 3
-6. Before start harvesting virus, bring syringes, filters, and 5-mL eppendorfs into BSC. Also prepare and bring 2% Vesphene solution in **(1) a small plastic beaker or a 50-mL falcon tube** (about 3 mL/well-of-virus, to decontaminate the 6-well plate after harvesting viruses), and **(2) a 2-L bottle with 1 L of 2% Vesphene pre-filled **.
+6. Before start harvesting virus, bring syringes, filters, and 5-mL eppendorfs into BSC. Also prepare and bring 2% Vesphene solution in
+    - a small plastic beaker or a 50-mL falcon tube (about 3 mL/well-of-virus, to decontaminate the 6-well plate after harvesting viruses); and 
+    - a 2-L bottle with 1 L of 2% Vesphene pre-filled.
 7. Use a 5-mL syringe to take out supernatant. Filter through 0.45 μm filter, and collect filtrate in a 5-mL eppendorf (or other containers of appropriate volume).
 > **Careful! Live viruses are in the supernatant. Work carefully without touching regions/parts that have come into contact with media/cells. All solid waste that has come into contact with media/cells needs to be decontaminated. For plates and tubes, fill with 2% Vesphene solution after use, incubate, and then aspirate. For tips, syringes, and filters, rinse (if possible) and then dispose of into the bottle containing 2% Vesphene.** 
 
@@ -66,5 +69,5 @@ See below for detail:
 
 ## References
 - [Addgene Lentiviral Guide](https://www.addgene.org/viral-vectors/lentivirus/lenti-guide/#production)
-- [Tronolab](https://tronolab.epfl.ch/page-148635-en.html) Protocol:[LV Production](https://jahia-prod.epfl.ch/files/content/sites/cpg/files/documents/Documents%20TCF/LV_production.pdf)
+- [Trono lab](https://tronolab.epfl.ch/page-148635-en.html) Protocol:[LV Production](https://jahia-prod.epfl.ch/files/content/sites/cpg/files/documents/Documents%20TCF/LV_production.pdf)
 - Transfection ratios were obtained from J.E. Toettcher Lab and had been modified by JSP from John James's protocol based on Trono Lab and other protocols

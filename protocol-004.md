@@ -63,11 +63,11 @@ See below for detail:
 - Dispose of used syringe/filter into the waste bottle containing 2% Vesphene.
 - Transfer 2% Vesphene from a small beaker or a 50-mL falcon tube into 6-well plate to decontaminate. Aspirate into liquid waste flask after 10-minute incubation in BSC.
 
-8. Virus supernatant can be used directly, be stored in 4 degC for a few days, or be aliquoted into single-use-volume and stored in -80 degC freezer for future use .
+8. Virus supernatant can be used directly, be stored in 4 degC for a few days, or be aliquoted into single-use-volume and stored in -80 degC freezer for future use.
 
 
 
-## References
+## References and related files
 - [Addgene Lentiviral Guide](https://www.addgene.org/viral-vectors/lentivirus/lenti-guide/#production)
 - [Trono lab](https://tronolab.epfl.ch/page-148635-en.html) Protocol:[LV Production](https://jahia-prod.epfl.ch/files/content/sites/cpg/files/documents/Documents%20TCF/LV_production.pdf)
-- Transfection ratios were obtained from J.E. Toettcher Lab and had been modified by JSP from John James's protocol based on Trono Lab and other protocols
+- Transfection ratios were obtained from J.E. Toettcher Lab and had been modified by JSP from John James's protocol based on Trono Lab and other protocols. See [this file](asset/lenti%20transfection%20template.xlsx) (`asset/lenti transfection tempalte.xlsx`) for the excel spreadsheet.

@@ -11,14 +11,15 @@ This protocol describes how to use NEBuilder for cloning where the backbone is p
 
 ---
 
-## Materials
-### Reagents
-
-
----
-
-
 ## Procedures
+
+### Before experiments
+#### Design cloning scheme
+1. Design and order primers that allow homology overlapping with the ends of other fragments used in the final DNA assembly reaction.
+    - Check out the [NEBuilder manual](asset/nebuilder.pdf) for detail design principles.
+      - I typically do at least 18-20 bp overlap.
+    - Use [NEB Tm Calculator](https://tmcalculator.neb.com/#!/main) to check the melting and annealing temperatures for polymerase of choice.
+    - SnapGene can also automatically pick primers for you, but I don't use it. However, I use SnapGene to verify my own design will work and to catch potential mistakes.
 
 ### Day 1
 
@@ -40,15 +41,21 @@ This protocol describes how to use NEBuilder for cloning where the backbone is p
     
 
 #### Insert(s) preparation
+0. Design and order 
 1. PCR out the insert with primers that allow homology overlapping with the ends of other fragments used in the final DNA assembly reaction.
     - Use Q5 Hot Start 2X Master Mix (or any other polymerases of choice).
-    - Parameters for some enzymes:
+    - Parameters for selected enzymes:
 
-
-| polymerase  | denature temp. (degC) | initial denature time (s) | denature time (s) | annealing time (s) | extension temp. (degC) | extension rate (s/kb) | final extension time (m) | primer conc. (nM) |
-|:-----------:|:---------------------:|:-------------------------:|:-----------------:|:------------------:|:----------------------:|:---------------------:|:------------------------:|:-----------------:|
-| Q5 HS 2X MM | 98                    | 30                        | 10                | 20                 | 72                     | 25                    | 2                        | 500               |
-| Phusion     | 98                    | 30                        | 10                | 15                 | 72                     | 20                    | 10                       | 500               |
+|         polymerase        | Q5 HS 2X MM | Phusion |
+|---------------------------|-------------|---------|
+| denature temp. (degC)     |          98 |      98 |
+| initial denature time (s) |          30 |      30 |
+| denature time (s)         |          10 |      10 |
+| annealing time (s)        |          20 |      15 |
+| extension temp. (degC)    |          72 |      72 |
+| extension rate (s/kb)     |          25 |      20 |
+| final extension time (m)  |           2 |      10 |
+| primer conc. (nM)         |         500 |     500 |
 
 - Use [PCR table](https://docs.google.com/spreadsheets/d/1Z0tTnK_r0xnXMjnLNWMSjo8pxUXNh8B8lLa8x3JgxPM/edit?usp=sharing) to determine and log PCR conditions.
 
@@ -86,8 +93,6 @@ This protocol describes how to use NEBuilder for cloning where the backbone is p
 
 #### Colony PCR
 See [Colony PCR](protocol-002.md) for detail.
-
-#### 
 
 
 

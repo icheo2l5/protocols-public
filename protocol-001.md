@@ -23,8 +23,8 @@ This protocol describes how to use NEBuilder for cloning where the backbone is p
 ### Day 1
 
 #### Backbone preparation
-1. Digest 4-5 μg of plasmid with chosen restriction enzyme(s).
-    - Do 50 μL or 100 μL reaction in a PCR tube.
+1. Digest 4-5 $\mu$g of plasmid with chosen restriction enzyme(s).
+    - Do 50 $\mu$L or 100 $\mu$L reaction in a PCR tube.
     - Incubate at 37 degC (or temperature suggested by the manufacturer) for at least one and up to four hours.
     - Can freeze the product and pause here.
 2. Run on 1% agarose gel (see [Run DNA gel](protocol-003.md) for detail) to isolate the fragment of desired size if possible.
@@ -32,9 +32,9 @@ This protocol describes how to use NEBuilder for cloning where the backbone is p
     - Otherwise, if the fragment to be cut out is fairly short (<50 bp?) or if there's only a single cutting site, can just perform a PCR cleanup to purify the products. Proceed to step **4**.
 3. Purify DNA using Qiagen MinElute Gel Extraction Kit or MN NucleoSpin Gel and PCR Clean-up Kit.
   
-    - Be sure to elute DNA with 10-15 μL of water instead of 30 μL or larger volume suggested due to the expected low yield.
+    - Be sure to elute DNA with 10-15 $\mu$L of water instead of 30 $\mu$L or larger volume suggested due to the expected low yield.
 4. Estimate the concentration with Nanodrop.
-    - The yield is usually fairly poor, commonly in between 10-50 ng/μL.
+    - The yield is usually fairly poor, commonly in between 10-50 ng/$\mu$L.
     - Also the measurement is usually not reliable if DNA is extracted from the gel.
     
     
@@ -57,16 +57,16 @@ This protocol describes how to use NEBuilder for cloning where the backbone is p
     - Can also just run a small fraction (instead of all) of the product to check the size, and then PCR-purify the remaining (step **4**), and hence bypass gel-extraction to minimize loss of recovery. But a successful PCR should give more than enough product anyway.
 3. Cut the band of correct apparent M.W.
 4. Purify the DNA using Qiagen Gel Extraction Kit. _OR_ Perform PCR clean-up if didn't run a gel.
-      - Elute with 15-30 μL of water.
+      - Elute with 15-30 $\mu$L of water.
       - No need to use MinElute as PCR product should be abundant.
 5. Estimate concentration with Nanodrop.
-      
+   
       - The measurement is usually not reliable if DNA is extracted from the gel.
       
       
 
 #### DNA assembly
-1. Design each reaction with total volume of 8 μL. ⇒ 4 μL DNA with 4 μL enzyme mix (2X)
+1. Design each reaction with total volume of 8 $\mu$L. ⇒ 4 $\mu$L DNA with 4 $\mu$L enzyme mix (2X)
     - Use [DNA assembly table](https://docs.google.com/spreadsheets/d/10S_Dq_-SBXHTpujz3SK8XRsMYCPX10S7KBpKczKHJd4/edit?usp=sharing) to determine the amount of DNA used for backbone and for inserts.
     - Can include negative control where insert DNA is replaced with water
 2. Run at 50 degC for 15-30 minutes in a thermocycler.
@@ -75,7 +75,7 @@ This protocol describes how to use NEBuilder for cloning where the backbone is p
 
 
 #### Transformation
-1. Transform 5 μL of assembled product from _**DNA assembly**_ into 50 μL NEBStable competent cell.
+1. Transform 5 $\mu$L of assembled product from _**DNA assembly**_ into 50 $\mu$L NEBStable competent cell.
     - Can include negative control with digested backbone
 2. Plate 1/5 of the transformed solution. Save the rest in 4 degC fridge in case we need to plate more.
 

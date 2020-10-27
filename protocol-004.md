@@ -22,7 +22,7 @@ This protocol shows how to generate and harvest lentivirus using the second-gene
   - transfer plasmid (e.g., pHR vector-based plasmid)
 - FuGene HD or other transfection reagent of choice
 - 3-/5-/10-mL syringe *(5-mL suggested)*
-- 0.45 μm filter (25 mm diameter, polyethersulfone membrane) or other low-protein binding membrane
+- 0.45 $\mu$m filter (25 mm diameter, polyethersulfone membrane) or other low-protein binding membrane
 - 5-mL eppendorf *(suggested)*
 - 2% Vesphene (See step. **6**)
 
@@ -35,7 +35,7 @@ This protocol shows how to generate and harvest lentivirus using the second-gene
 ### Day 1
 2. _(Optional)_ Replace the medium with fixed volume of new medium. Need to be very gentle to not disturb 293T cells. And if doing so, allow a few hours before transfecting the cells.
   - I usually do not do this step, unless the cells have been plated for two days.
-3. Prepare transfection solution. Into 150 μL OptiMEM, add and mix 3 μg DNA including pCMV-dR8.91, pMD2.G, and transfer plasmid (mass ratio 8:1:9). Add 9 μL of FuGene HD reagent and mix gently. Incubate this solution at RT for 10-15 minutes.
+3. Prepare transfection solution. Into 150 $\mu$L OptiMEM, add and mix 3 $\mu$g DNA including pCMV-dR8.91, pMD2.G, and transfer plasmid (mass ratio 8:1:9). Add 9 $\mu$L of FuGene HD reagent and mix gently. Incubate this solution at RT for 10-15 minutes.
     - Can use this [lentivirus table](https://docs.google.com/spreadsheets/d/1Gvl_XRcqCmvqblK3W8tqCFc7f1aRGl4E6OGUpKPE0jc/edit?usp=sharing) to calculate the recipe. Or use this [excel file](asset/lenti%20transfection%20template.xlsx) with more detail explained.
 4. Into each well, add the above transfection solution in a dropwise fashion. Gently rock the plate to mix. Incubate in 37 degC for 48-60 hours.
 
@@ -47,7 +47,7 @@ This protocol shows how to generate and harvest lentivirus using the second-gene
 6. Before start harvesting virus, bring syringes, filters, and 5-mL eppendorfs into BSC. Also prepare and bring 2% Vesphene solution in
     - a small plastic beaker or a 50-mL falcon tube (about 3 mL/well-of-virus, to decontaminate the 6-well plate after harvesting viruses); and 
     - a 2-L bottle with 1 L of 2% Vesphene pre-filled.
-7. Use a 5-mL syringe to take out supernatant. Filter through 0.45 μm filter, and collect filtrate in a 5-mL eppendorf (or other containers of appropriate volume).
+7. Use a 5-mL syringe to take out supernatant. Filter through 0.45 $\mu$m filter, and collect filtrate in a 5-mL eppendorf (or other containers of appropriate volume).
 > **Careful! Live viruses are in the supernatant. Work carefully without touching regions/parts that have come into contact with media/cells. All solid waste that has come into contact with media/cells needs to be decontaminated. For plates and tubes, fill with 2% Vesphene solution after use, incubate, and then aspirate. For tips, syringes, and filters, rinse (if possible) and then dispose of into the bottle containing 2% Vesphene.** 
 
 See below for detail:

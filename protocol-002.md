@@ -37,7 +37,7 @@ Use PCR to screen positive colonies after transformation of assembled DNA.
 
 1. Use [PCR table](https://docs.google.com/spreadsheets/d/1Z0tTnK_r0xnXMjnLNWMSjo8pxUXNh8B8lLa8x3JgxPM/edit?usp=sharing) to determine the master mix recipe and the thermo-cycling program.
 
-    - Reaction size: 8 or 10 μL per colony.
+    - Reaction size: 8 or 10 $\mu$L per colony.
 
     - The following parameters are used for OneTaq HS-QL 2X MM Standard Buffer:
 

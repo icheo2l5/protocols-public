@@ -36,7 +36,7 @@ This protocol shows how to generate and harvest lentivirus using the second-gene
 2. _(Optional)_ Replace the medium with fixed volume of new medium. Need to be very gentle to not disturb 293T cells. And if doing so, allow a few hours before transfecting the cells.
   - I usually do not do this step, unless the cells have been plated for two days.
 3. Prepare transfection solution. Into 150 $\mu$L OptiMEM, add and mix 3 $\mu$g DNA including pCMV-dR8.91, pMD2.G, and transfer plasmid (mass ratio 8:1:9). Add 9 $\mu$L of FuGene HD reagent and mix gently. Incubate this solution at RT for 10-15 minutes.
-    - Can use this [lentivirus table](https://docs.google.com/spreadsheets/d/1Gvl_XRcqCmvqblK3W8tqCFc7f1aRGl4E6OGUpKPE0jc/edit?usp=sharing) to calculate the recipe. Or use this [excel file](asset/lenti%20transfection%20template.xlsx) with more detail explained.
+    - Can use this [excel table](asset/lenti%20transfection%20template.xlsx) to calculate reagent usage with more detail explained.
 4. Into each well, add the above transfection solution in a dropwise fashion. Gently rock the plate to mix. Incubate in 37 degC for 48-60 hours.
 
 ### Day 2

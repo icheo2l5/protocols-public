@@ -57,7 +57,7 @@ This protocol describes how to use NEBuilder for cloning where the backbone is p
 | final extension time (m)  |           2 |      10 |
 | primer conc. (nM)         |         500 |     500 |
 
-- Use [PCR table](https://docs.google.com/spreadsheets/d/1Z0tTnK_r0xnXMjnLNWMSjo8pxUXNh8B8lLa8x3JgxPM/edit?usp=sharing) to determine and log PCR conditions.
+- Use [PCR table](https://docs.google.com/spreadsheets/d/1pGdlURjKuqQapkC8BWhwlaMc0NxCQl-8L66yKT_Yvlo/edit?usp=sharing) to determine and log PCR conditions.
 
 2. Run on 1% agarose gel (See [Run DNA gel](protocol-003.md) for detail) to verify the product size
   
@@ -74,7 +74,7 @@ This protocol describes how to use NEBuilder for cloning where the backbone is p
 
 #### DNA assembly
 1. Design each reaction with total volume of 8 $\mu$L. ⇒ 4 $\mu$L DNA with 4 $\mu$L enzyme mix (2X)
-    - Use [DNA assembly table](https://docs.google.com/spreadsheets/d/10S_Dq_-SBXHTpujz3SK8XRsMYCPX10S7KBpKczKHJd4/edit?usp=sharing) to determine the amount of DNA used for backbone and for inserts.
+    - Use [DNA assembly table](https://docs.google.com/spreadsheets/d/1G4l4WtEMPbiUMfWUJcOEH0ogL4pLeL4he5cG-GszZKU/edit?usp=sharing) to determine the amount of DNA used for backbone and for inserts.
     - Can include negative control where insert DNA is replaced with water
 2. Run at 50 degC for 15-30 minutes in a thermocycler.
 3. Freeze at -20 or proceed with transformation

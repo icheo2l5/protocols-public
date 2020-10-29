@@ -35,7 +35,7 @@ Use PCR to screen positive colonies after transformation of assembled DNA.
 
 ### Day 1
 
-1. Use [PCR table](https://docs.google.com/spreadsheets/d/1Z0tTnK_r0xnXMjnLNWMSjo8pxUXNh8B8lLa8x3JgxPM/edit?usp=sharing) to determine the master mix recipe and the thermo-cycling program.
+1. Use [PCR table](https://docs.google.com/spreadsheets/d/1pGdlURjKuqQapkC8BWhwlaMc0NxCQl-8L66yKT_Yvlo/edit?usp=sharing) to determine the master mix recipe and the thermo-cycling program.
 
     - Reaction size: 8 or 10 $\mu$L per colony.
 

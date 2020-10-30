@@ -73,7 +73,7 @@ This protocol describes how to use NEBuilder for cloning where the backbone is p
       
 
 #### DNA assembly
-1. Design each reaction with total volume of 8 $\mu$L. ⇒ 4 $\mu$L DNA with 4 $\mu$L enzyme mix (2X)
+1. Design each reaction with total volume of 8 $\mu$L. $\implies$ 4 $\mu$L DNA with 4 $\mu$L enzyme mix (2X)
     - Use [DNA assembly table](https://docs.google.com/spreadsheets/d/10S_Dq_-SBXHTpujz3SK8XRsMYCPX10S7KBpKczKHJd4/edit?usp=sharing) to determine the amount of DNA used for backbone and for inserts.
     - Can include negative control where insert DNA is replaced with water
 2. Run at 50 degC for 15-30 minutes in a thermocycler.

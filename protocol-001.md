@@ -85,8 +85,10 @@ This protocol describes how to use NEBuilder for cloning where the backbone is p
 
 #### Transformation
 1. Transform 5 $\mu$L of assembled product from _**DNA assembly**_ into 50 $\mu$L NEBStable competent cell.
-    - Can include negative control with digested backbone
-2. Plate 1/5 of the transformed solution. Save the rest in 4 degC fridge in case we need to plate more.
+    - Can include negative controls to get a sense of background level colony. (Want to keep mass of backbone the same across conditions for this purpose.)
+    - Note that for NEBStable competent cells, it is best to grow at 30 degC for 24 hours instead of at 37 degC.
+    - Also note that for a lot of plasmids, it is not necessary to use NEBStable cells. Regular DH5$\alpha$ cells or Stellar competent cells (from Takara) can also be used, which can be grown at 37 degC without issues.
+2. Plate 1/5 of the transformed solution. Save the rest in 4 degC fridge in case we need to plate more or less, depending on the resulting colony density.
 
 
 
@@ -101,22 +103,25 @@ See [Colony PCR](protocol-002.md) for detail.
 ### Day 3
 
 #### DNA isolation (mini-prep)
+
 1. Use Qiagen kit (QIAprep Spin Miniprep Kit) following their instruction with the following modifications:
     - Elute with 30-50 $\mu$L nuclease-free water instead of Elution Buffer or TE buffer.
 
 #### Analytical digestion
+
 If colony PCR can't be readily performed, or is less desirable, analytical digestion can be an alternative assay for picking potentially positive clones.
 
 1. Pick two (or three) enzymes that would create distinct digestion patterns for positive clones that can be distinguished from negative clones (usually this means backbone-only, incomplete incorporation of inserts, or simply unrelevant background.)
 
 
 #### Sanger sequencing
+
 Pick a few plasmids to verify the sequence. I usually do two if my colony PCR or analytical digestion results look good.
 
 1. Create your Sanger sequencing order via Genewiz. Enter the plasmid information and primers to be used for sequencing.
     - Can also use their universal primers, which can be found on their website [here](https://www.genewiz.com/en/Public/Resources/Free-Universal-Primers).
 2. Prepare samples in PCR tubes.
-    - Provide 0.1 $\mu$g/kb plasmid in a total of 10 $\mu$L volume, as suggested by Genewiz. Although less DNA is also fine, and sometimes gives even better result.
+    - Dilute plasmid DNA with water to 10 $\mu$L. The mass of DNA to provide scales with the size of plasmid. 0.1 $\mu$g per kb is suggested by Genewiz, although less DNA is also fine and sometimes gives even better result.
     - Add 5 $\mu$L of 5 $\mu$M primer. Skip this step if using Genewiz's universal primers.
 
 

@@ -5,21 +5,24 @@ author: "Yi-Che Chang"
 
 # Cloning with NEBuilder 
 
-
 ## Summary
-This protocol describes how to use NEBuilder for cloning where the backbone is prepared by restriction enzyme digestion and the insert(s) are prepared by either digestion or PCR.
+This protocol describes how to use NEBuilder for cloning where the backbone is prepared by restriction enzyme digestion and the insert(s) are prepared by either digestion or PCR. Similar workflow can be used for Takara InFusion with a different method of counting overlapping due to the endonuclease directionality.
 
 ---
 
 ## Procedures
 
 ### Before experiments
-#### Design cloning scheme
-1. Design and order primers that allow homology overlapping with the ends of other fragments used in the final DNA assembly reaction.
+#### Design cloning scheme (i.e., the *harder* part)
+1. Design cutting sites.
+    - It's preferable to pick enzymes that generate distinct sticky ends. When this is not possible, include additional de-phosphorylation step after digestion.
+    - Make sure to check buffer compatibility. Most of them should be at high efficiency in CutSmart.
+2. Design and order primers that allow homology overlapping with the ends of other fragments used in the final DNA assembly reaction.
     - Check out the [NEBuilder manual](asset/nebuilder.pdf) for detail design principles.
       - I typically do at least 18-20 bp overlap.
+    - Pick restriction enzyme
     - Use [NEB Tm Calculator](https://tmcalculator.neb.com/#!/main) to check the melting and annealing temperatures for polymerase of choice.
-    - SnapGene can also automatically pick primers for you, but I don't use it. However, I use SnapGene to verify my own design will work and to catch potential mistakes.
+    - SnapGene can also automatically pick primers for you, but I don't use it. However, I use SnapGene to verify my own design will work and to catch potential mistakes. Note that instead of using the tool for NEBuilder, I use the one for Gibson assembly as the latter has more strict rules which will detect any unintended mistakes. (In snapgene, use `Actions` > `Gibson Assembly`.)
 
 ### Day 1
 
@@ -41,7 +44,6 @@ This protocol describes how to use NEBuilder for cloning where the backbone is p
     
 
 #### Insert(s) preparation
-0. Design and order 
 1. PCR out the insert with primers that allow homology overlapping with the ends of other fragments used in the final DNA assembly reaction.
     - Use Q5 Hot Start 2X Master Mix (or any other polymerases of choice).
     - Parameters for selected enzymes:
@@ -99,18 +101,23 @@ See [Colony PCR](protocol-002.md) for detail.
 ### Day 3
 
 #### DNA isolation (mini-prep)
-
-
-
-
+1. Use Qiagen kit (QIAprep Spin Miniprep Kit) following their instruction with the following modifications:
+    - Elute with 30-50 $\mu$L nuclease-free water instead of Elution Buffer or TE buffer.
 
 #### Analytical digestion
+If colony PCR can't be readily performed, or is less desirable, analytical digestion can be an alternative assay for picking potentially positive clones.
 
-
-
+1. Pick two (or three) enzymes that would create distinct digestion patterns for positive clones that can be distinguished from negative clones (usually this means backbone-only, incomplete incorporation of inserts, or simply unrelevant background.)
 
 
 #### Sanger sequencing
+Pick a few plasmids to verify the sequence. I usually do two if my colony PCR or analytical digestion results look good.
+
+1. Create your Sanger sequencing order via Genewiz. Enter the plasmid information and primers to be used for sequencing.
+    - Can also use their universal primers, which can be found on their website [here](https://www.genewiz.com/en/Public/Resources/Free-Universal-Primers).
+2. Prepare samples in PCR tubes.
+    - Provide 0.1 $\mu$g/kb plasmid in a total of 10 $\mu$L volume, as suggested by Genewiz. Although less DNA is also fine, and sometimes gives even better result.
+    - Add 5 $\mu$L of 5 $\mu$M primer. Skip this step if using Genewiz's universal primers.
 
 
 

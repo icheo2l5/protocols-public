@@ -101,18 +101,23 @@ See [Colony PCR](protocol-002.md) for detail.
 ### Day 3
 
 #### DNA isolation (mini-prep)
-
-
-
-
+1. Use Qiagen kit (QIAprep Spin Miniprep Kit) following their instruction with the following modifications:
+    - Elute with 30-50 $\mu$L nuclease-free water instead of Elution Buffer or TE buffer.
 
 #### Analytical digestion
+If colony PCR can't be readily performed, or is less desirable, analytical digestion can be an alternative assay for picking potentially positive clones.
 
-
-
+1. Pick two (or three) enzymes that would create distinct digestion patterns for positive clones that can be distinguished from negative clones (usually this means backbone-only, incomplete incorporation of inserts, or simply unrelevant background.)
 
 
 #### Sanger sequencing
+Pick a few plasmids to verify the sequence. I usually do two if my colony PCR or analytical digestion results look good.
+
+1. Create your Sanger sequencing order via Genewiz. Enter the plasmid information and primers to be used for sequencing.
+    - Can also use their universal primers, which can be found on their website [here](https://www.genewiz.com/en/Public/Resources/Free-Universal-Primers).
+2. Prepare samples in PCR tubes.
+    - Provide 0.1 $\mu$g/kb plasmid in a total of 10 $\mu$L volume, as suggested by Genewiz. Although less DNA is also fine, and sometimes gives even better result.
+    - Add 5 $\mu$L of 5 $\mu$M primer. Skip this step if using Genewiz's universal primers.
 
 
 

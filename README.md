@@ -12,6 +12,7 @@ author: "Yi-Che Chang"
 
 ## Tissue culturing
 - [Lentivirus Production](protocol-004.md) (`004`)
+- [FACS sample preparation for live cell sorting](protocol-006.md) (`006`)
 
 
 ## Imaging
